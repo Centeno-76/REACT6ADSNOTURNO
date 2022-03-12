@@ -7,7 +7,8 @@ import { Teste1,Teste2,Teste3 } from "./componentes/MultiElementos";
 import FamiliaGomes from "./componentes/FamiliaGomes";
 import Familia from "./componentes/Familia";
 import Nome from "./componentes/Nome";
-import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
+// import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
+import Pai from "./componentes/Pai";
 
 const element = document.getElementById('root')
 
@@ -36,7 +37,8 @@ ReactDOM.render(
                 <Nome nome="João "/>
                 <Nome nome="Carlos "/>
             </Familia> */}
-            <ComponenteComFuncao />
+            {/* <ComponenteComFuncao /> */}
+            <Pai />
         </div>
     , element
 )
